@@ -1,5 +1,6 @@
 # Personal Expense Tracker
-Live Link: https://expense-tracker-web-pgqz.onrender.com/
+Live Link: https://expense-tracker-web-pgqz.onrender.com
+
 A full-stack personal expense tracker built with Django, Django REST Framework, PostgreSQL, React, Vite, and Tailwind CSS.
 
 ## Backend
