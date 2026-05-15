@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+.dark {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-slate-50 text-slate-900 antialiased;
+}
+
+button,
+input,
+select,
+textarea {
+  @apply rounded-lg border border-slate-300 bg-white px-3 py-2 text-slate-900 outline-none transition duration-150 ease-in-out;
+}
+
+button:hover {
+  @apply bg-slate-100;
+}
+
+.dark body {
+  @apply bg-slate-950 text-slate-100;
+}
+
+.dark button,
+.dark input,
+.dark select,
+.dark textarea {
+  @apply bg-slate-900 border-slate-700 text-slate-100;
+}
