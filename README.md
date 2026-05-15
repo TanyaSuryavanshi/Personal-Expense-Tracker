@@ -55,5 +55,5 @@ A full-stack personal expense tracker built with Django, Django REST Framework, 
 - Budget management with custom limits
 - Filter transactions by category and date
 - Export CSV and PDF from the frontend
-- Responsive UI with dark mode support
+- Responsive UI 
 - REST API endpoints for all backend operations
