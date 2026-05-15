@@ -32,7 +32,7 @@ export default function AnalyticsPanel({ analytics }) {
         </div>
       </div>
       <div className="mt-6 grid gap-4 lg:grid-cols-2">
-        <div className="h-72 rounded-3xl bg-slate-100 p-4 pt-8 dark:bg-slate-950">
+        <div className="h-80 rounded-3xl bg-slate-100 p-4 pt-8 dark:bg-slate-950">
           <div className="mb-3">
             <h3 className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-500 dark:text-slate-400">Category share</h3>
           </div>
@@ -54,7 +54,7 @@ export default function AnalyticsPanel({ analytics }) {
               </div>
             </div>
           ) : (
-            <ResponsiveContainer width="100%" height="100%">
+            <ResponsiveContainer width="100%" height="100%" minHeight={250}>
               <PieChart>
                 <Pie data={pieData} dataKey="value" nameKey="name" innerRadius={45} outerRadius={80} paddingAngle={3}>
                   {pieData.map((entry, index) => (
