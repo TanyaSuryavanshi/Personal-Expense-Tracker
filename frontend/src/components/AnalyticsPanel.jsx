@@ -7,7 +7,7 @@ export default function AnalyticsPanel({ analytics }) {
   if (!analytics) {
     return (
       <section className="rounded-3xl bg-white/90 p-6 shadow-lg ring-1 ring-slate-200 backdrop-blur dark:bg-slate-900/80 dark:ring-slate-700">
-        <p className="text-sm text-slate-500 dark:text-slate-400">Loading analytics...</p>
+        <p className="text-sm text-slate-500 dark:text-slate-400">Add transactions to see analytics</p>  
       </section>
     )
   }
